@@ -1,0 +1,9 @@
+{
+  "envs" : {
+    "FRIES" : {
+      "ce-0121" : "https://training.pricefx.eu/app/"
+    }
+  },
+  "keepLabelsIntact" : false,
+  "keepUserGroups" : false
+}
