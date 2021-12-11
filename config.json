@@ -1,7 +1,7 @@
 {
   "envs" : {
     "FRIES" : {
-      "ce-0121" : "https://training.pricefx.eu/app/"
+      "ce-0121" : "https://training.pricefx.eu"
     }
   },
   "keepLabelsIntact" : false,
