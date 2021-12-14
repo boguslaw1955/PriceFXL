@@ -1,0 +1,1 @@
+return input.SalesDiscountPct?:0.0
