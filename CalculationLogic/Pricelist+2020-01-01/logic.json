@@ -1,0 +1,21 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 17,
+    "elementGroups" : [ ],
+    "elementLabel" : "Basic Price",
+    "elementName" : "BasicPrice",
+    "elementTimeout" : 0,
+    "formatType" : "MONEY_EUR",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "protectedExpression" : false,
+    "summarize" : false
+  } ],
+  "inputDescriptors" : [ ],
+  "label" : "`pricelsit",
+  "status" : "ACTIVE",
+  "uniqueName" : "Pricelist",
+  "validAfter" : "2020-01-01"
+}
