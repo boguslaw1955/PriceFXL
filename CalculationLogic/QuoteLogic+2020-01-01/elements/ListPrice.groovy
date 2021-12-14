@@ -1,1 +1,1 @@
-return api.pricelist("globalPricelist")
+return api.pricelist("GlobalPriceList")
