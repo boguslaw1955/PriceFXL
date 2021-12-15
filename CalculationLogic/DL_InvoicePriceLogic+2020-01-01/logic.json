@@ -1,0 +1,9 @@
+{
+  "elements" : [ ],
+  "formulaNature" : "paDataLoad",
+  "inputDescriptors" : [ ],
+  "label" : "InvoicePriceLogic",
+  "status" : "ACTIVE",
+  "uniqueName" : "DL_InvoicePriceLogic",
+  "validAfter" : "2020-01-01"
+}
