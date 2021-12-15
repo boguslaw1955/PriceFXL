@@ -1,0 +1,20 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementLabel" : "Avg Cost USD",
+    "elementName" : "AvgCostUSD",
+    "elementTimeout" : 0,
+    "formatType" : "MONEY",
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "protectedExpression" : false,
+    "summarize" : false
+  } ],
+  "inputDescriptors" : [ ],
+  "status" : "ACTIVE",
+  "uniqueName" : "CFS_ProductCostCurrencyConversion",
+  "validAfter" : "2020-01-01"
+}
