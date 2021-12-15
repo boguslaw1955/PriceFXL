@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/CFS_ProductCostCurrencyConversion+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/QuoteHeaderLogic+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/CompetitionPricing+2000-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/DL_InvoicePriceLogic+2020-01-01/elements" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

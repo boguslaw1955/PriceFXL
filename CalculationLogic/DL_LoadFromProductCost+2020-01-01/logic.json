@@ -1,0 +1,9 @@
+{
+  "elements" : [ ],
+  "formulaNature" : "paDataLoad",
+  "inputDescriptors" : [ ],
+  "label" : "DL_LoadFromProductCost",
+  "status" : "ACTIVE",
+  "uniqueName" : "DL_LoadFromProductCost",
+  "validAfter" : "2020-01-01"
+}
