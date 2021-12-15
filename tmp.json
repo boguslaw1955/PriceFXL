@@ -1,0 +1,65 @@
+{
+  "version": 4,
+  "typedId": "921.Q",
+  "uniqueName": "P-921",
+  "label": "Lab07",
+  "lineItems": [
+    {
+      "version": 1,
+      "typedId": "7003.QLI",
+      "clicId": 921,
+      "inputs": [
+        { ... }, { ... }
+      ],
+      "outputs": [
+        { ... }, { ... }, { ... }, { ... }, { ... },
+        {
+          "resultName": "TotalInvoicePrice",
+          "resultLabel": "Total Invoice Price",
+          "result": 638.4000000,
+          "displayOptions": 2,
+          "formatType": "MONEY_EUR",
+          "resultType": "SIMPLE",
+          "overrideAllowEmpty": true,
+          "overridable": false,
+          "overridden": false
+        }, { ... }, { ... }, { ... },
+      ],
+      "dirty": false,
+      "lineId": "ZSjcdkh7LaA7b2H",
+      "calculationStatus": 0,
+      "editabilityStatus": 0,
+      "label": "Meatball BM",
+      "sku": "MB-0002",
+      "folder": false,
+      "treeLabel": "Meatball BM",
+      "createDate": "2020-01-19T17:45:51",
+      "createdBy": 1191,
+      "lastUpdateDate": "2020-01-19T17:45:51",
+      "lastUpdateBy": 1191
+    },
+    { ... }
+  ],
+  "targetDate": "2020-01-01",
+  "workflowStatus": "DRAFT",
+  "headerText": "",
+  "inputs": [{ ... }],
+  "renderInfo": {},
+  "viewState": { ... },
+  "outputs": [],
+  "lastUpdateByName": "admin",
+  "createdByName": "admin",
+  "calculationStatus": 4,
+  "dirty": false,
+  "refreshInputs": false,
+  "nodeId": 0,
+  "numberOfAttachments": 0,
+  "expiryDate": "2020-01-01",
+  "quoteStatus": "DRAFT",
+  "hasWorkflowHistory": false,
+  "createDate": "2020-01-19T17:45:33",
+  "createdBy": 1191,
+  "lastUpdateDate": "2020-01-19T17:45:51",
+  "lastUpdateBy": 1191,
+  "rootUniqueName": "P-921"
+}

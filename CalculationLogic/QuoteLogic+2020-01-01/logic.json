@@ -75,7 +75,7 @@
   }, {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
-    "displayOptions" : 16,
+    "displayOptions" : 18,
     "elementGroups" : [ ],
     "elementLabel" : "TotalInvoicePrice",
     "elementName" : "TotalInvoicePrice",

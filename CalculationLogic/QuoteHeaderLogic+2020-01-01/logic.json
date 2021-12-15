@@ -1,0 +1,20 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 0,
+    "elementGroups" : [ ],
+    "elementName" : "TotalInvoicePrice",
+    "elementTimeout" : 0,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "protectedExpression" : false,
+    "summarize" : false
+  } ],
+  "formulaNature" : "quoteHeader",
+  "inputDescriptors" : [ ],
+  "label" : "Quote Header Logic",
+  "status" : "ACTIVE",
+  "uniqueName" : "QuoteHeaderLogic",
+  "validAfter" : "2020-01-01"
+}
