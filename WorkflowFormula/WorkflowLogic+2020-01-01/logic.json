@@ -1,0 +1,9 @@
+{
+  "elements" : [ ],
+  "inputDescriptors" : [ ],
+  "label" : "Workflow Logic",
+  "status" : "ACTIVE",
+  "uniqueName" : "WorkflowLogic",
+  "validAfter" : "2020-01-01",
+  "workflowType" : "quote"
+}
