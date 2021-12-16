@@ -8,6 +8,7 @@ quote.lineItems.findAll {
     }?.result
     totalInvoicePrice += lineItemTotalInvoicePrice
 }
+
 def approvalLevels = api.findLookupTableValues("ApprovalLevelsRevenue")
 
 approvalLevels.sort {

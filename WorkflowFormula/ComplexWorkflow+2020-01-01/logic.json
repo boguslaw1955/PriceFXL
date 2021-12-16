@@ -1,8 +1,8 @@
 {
   "elements" : [ {
     "combinationType" : "FUNCTION",
-    "elementLabel" : "Build Steps",
-    "elementName" : "BuildSteps",
+    "elementLabel" : "Build Step",
+    "elementName" : "BuildStep",
     "elementTimeout" : 0,
     "hideWarnings" : false,
     "protectedExpression" : false
