@@ -6,6 +6,13 @@ quote.lineItems.findAll {
     BigDecimal lineItemTotalInvoicePrice = lineItem.outputs.find {
         it.resultName == "TotalInvoicePrice"
     }?.result
+
+    if(!lineItemTotalInvoicePrice){
+        api.throwException("Unable to build workflow. Unable to calculate " +
+                " Total Invoice Price for entire quote. Missing for row " +
+                " ${lineItem.sku}")
+    }
+
     totalInvoicePrice += lineItemTotalInvoicePrice
 }
 
@@ -14,13 +21,13 @@ def approvalLevels = api.findLookupTableValues("ApprovalLevelsRevenue")
 approvalLevels.sort {
     it.name
 }.each { level ->
-    def threshold = level.attribute1
+    def treshold = level.attribute1
     def userGroup = level.attribute2
 
-    if (totalInvoicePrice >= threshold) {
+    if (totalInvoicePrice >= treshold) {
         workflow.addApprovalStep(userGroup)
                 .withReasons("Total Invoice Price > " +
-                        (threshold as String) + "EUR")
+                        (treshold as String) + "EUR")
                 .withUserGroupApprovers(userGroup)
                 .withMinApprovalsNeeded(1)
     }

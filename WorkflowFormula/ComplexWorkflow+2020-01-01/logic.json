@@ -1,6 +1,12 @@
 {
   "elements" : [ {
     "combinationType" : "FUNCTION",
+    "elementName" : "AbortonSynxtaxCheck",
+    "elementTimeout" : 0,
+    "hideWarnings" : false,
+    "protectedExpression" : false
+  }, {
+    "combinationType" : "FUNCTION",
     "elementLabel" : "Build Step",
     "elementName" : "BuildStep",
     "elementTimeout" : 0,
