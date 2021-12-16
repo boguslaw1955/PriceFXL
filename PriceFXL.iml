@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/CompetitionPricing+2000-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/DL_InvoicePriceLogic+2020-01-01/elements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CalculationLogic/DL_LoadFromProductCost+2020-01-01/elements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WorkflowFormula/SimpleWorkflow+2020-01-01/elements" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
