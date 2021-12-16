@@ -1,0 +1,1344 @@
+{
+  "quote" : {
+    "version" : 3,
+    "typedId" : "6847.Q",
+    "uniqueName" : "P-6847",
+    "label" : "New Quote",
+    "targetDate" : "2021-12-15",
+    "workflowStatus" : "DRAFT",
+    "inputs" : [ {
+      "name" : "Customer",
+      "label" : "Customer",
+      "url" : "/fetch/C/",
+      "type" : "CUSTOMER",
+      "value" : "CD-00004",
+      "valueHint" : "Price f(x) AG",
+      "parameterConfig" : { },
+      "formattingOptions" : { }
+    } ],
+    "viewState" : {
+      "selectedNodes" : [ "CI3p2jDfloETyq7" ]
+    },
+    "outputs" : [ ],
+    "lastUpdateByName" : "admin",
+    "createdByName" : "admin",
+    "calculationStatus" : 0,
+    "dirty" : false,
+    "refreshInputs" : false,
+    "serverMessages" : [ "Quote calculated successfully" ],
+    "numberOfAttachments" : 0,
+    "lineItems" : [ {
+      "version" : 1,
+      "typedId" : "47082.QLI",
+      "clicId" : 6847,
+      "inputs" : [ {
+        "name" : "Quantity",
+        "label" : "Required Quantity",
+        "type" : "INTEGERUSERENTRY",
+        "value" : 29,
+        "required" : true,
+        "parameterConfig" : {
+          "dataType" : "integer",
+          "inputType" : "range",
+          "from" : 1
+        },
+        "formattingOptions" : { }
+      }, {
+        "name" : "SalesDiscountPct",
+        "label" : "Sales Discount (%)",
+        "type" : "USERENTRY",
+        "value" : 0,
+        "required" : false,
+        "parameterConfig" : {
+          "dataType" : "float",
+          "from" : 0,
+          "format type" : "PERCENT",
+          "to" : 1,
+          "formatType" : "range"
+        },
+        "formattingOptions" : { }
+      } ],
+      "outputs" : [ {
+        "resultName" : "DeclareInputParameters",
+        "resultLabel" : "DeclareInputParameters",
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "Quantity",
+        "resultLabel" : "Quantity",
+        "result" : 29,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "SalesDiscountPct",
+        "resultLabel" : "Sales Discount %",
+        "result" : 0.0,
+        "excludeFromExport" : false,
+        "displayOptions" : 2,
+        "formatType" : "PERCENT",
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "ListPrice",
+        "resultLabel" : "ListPrice",
+        "result" : 6.64424,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "SalesDiscountAbs",
+        "resultLabel" : "SalesDiscountAbs",
+        "result" : 0.000000,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "InvoicePrice",
+        "resultLabel" : "InvoicePrice",
+        "result" : 6.644240,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "TotalInvoicePrice",
+        "resultLabel" : "TotalInvoicePrice",
+        "result" : 192.682960,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "Cost",
+        "resultLabel" : "Cost",
+        "result" : 4.74,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "PocketMarginAbs",
+        "resultLabel" : "PocketMarginAbs",
+        "result" : 1.904240,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "PocketMarginPct",
+        "resultLabel" : "PocketMarginPct",
+        "result" : 0.2866001228,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      } ],
+      "dirty" : false,
+      "lineId" : "eDt5qnNOw0b2C0G",
+      "calculationStatus" : 0,
+      "editabilityStatus" : 0,
+      "label" : "Meatball Bl",
+      "sku" : "MB-0001",
+      "folder" : false,
+      "treeLabel" : "Meatball Bl",
+      "createDate" : "2021-12-15T09:38:48",
+      "createdBy" : 4243,
+      "lastUpdateDate" : "2021-12-15T09:38:48",
+      "lastUpdateBy" : 4243
+    }, {
+      "version" : 1,
+      "typedId" : "47083.QLI",
+      "clicId" : 6847,
+      "inputs" : [ {
+        "name" : "Quantity",
+        "label" : "Required Quantity",
+        "type" : "INTEGERUSERENTRY",
+        "value" : 29,
+        "required" : true,
+        "parameterConfig" : {
+          "dataType" : "integer",
+          "inputType" : "range",
+          "from" : 1
+        },
+        "formattingOptions" : { }
+      }, {
+        "name" : "SalesDiscountPct",
+        "label" : "Sales Discount (%)",
+        "type" : "USERENTRY",
+        "value" : 0,
+        "required" : false,
+        "parameterConfig" : {
+          "dataType" : "float",
+          "from" : 0,
+          "format type" : "PERCENT",
+          "to" : 1,
+          "formatType" : "range"
+        },
+        "formattingOptions" : { }
+      } ],
+      "outputs" : [ {
+        "resultName" : "DeclareInputParameters",
+        "resultLabel" : "DeclareInputParameters",
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "Quantity",
+        "resultLabel" : "Quantity",
+        "result" : 29,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "SalesDiscountPct",
+        "resultLabel" : "Sales Discount %",
+        "result" : 0.0,
+        "excludeFromExport" : false,
+        "displayOptions" : 2,
+        "formatType" : "PERCENT",
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "ListPrice",
+        "resultLabel" : "ListPrice",
+        "result" : 6.00465,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "SalesDiscountAbs",
+        "resultLabel" : "SalesDiscountAbs",
+        "result" : 0.000000,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "InvoicePrice",
+        "resultLabel" : "InvoicePrice",
+        "result" : 6.004650,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "TotalInvoicePrice",
+        "resultLabel" : "TotalInvoicePrice",
+        "result" : 174.134850,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "Cost",
+        "resultLabel" : "Cost",
+        "result" : 5.17,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "PocketMarginAbs",
+        "resultLabel" : "PocketMarginAbs",
+        "result" : 0.834650,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "PocketMarginPct",
+        "resultLabel" : "PocketMarginPct",
+        "result" : 0.1390006079,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      } ],
+      "dirty" : false,
+      "lineId" : "ll4QLyuf6rEBNTA",
+      "calculationStatus" : 0,
+      "editabilityStatus" : 0,
+      "label" : "Meatball BM",
+      "sku" : "MB-0002",
+      "folder" : false,
+      "treeLabel" : "Meatball BM",
+      "createDate" : "2021-12-15T09:38:48",
+      "createdBy" : 4243,
+      "lastUpdateDate" : "2021-12-15T09:38:48",
+      "lastUpdateBy" : 4243
+    }, {
+      "version" : 1,
+      "typedId" : "47084.QLI",
+      "clicId" : 6847,
+      "inputs" : [ {
+        "name" : "Quantity",
+        "label" : "Required Quantity",
+        "type" : "INTEGERUSERENTRY",
+        "value" : 10,
+        "required" : true,
+        "parameterConfig" : {
+          "dataType" : "integer",
+          "inputType" : "range",
+          "from" : 1
+        },
+        "formattingOptions" : { }
+      }, {
+        "name" : "SalesDiscountPct",
+        "label" : "Sales Discount (%)",
+        "type" : "USERENTRY",
+        "value" : 0,
+        "required" : false,
+        "parameterConfig" : {
+          "dataType" : "float",
+          "from" : 0,
+          "format type" : "PERCENT",
+          "to" : 1,
+          "formatType" : "range"
+        },
+        "formattingOptions" : { }
+      } ],
+      "outputs" : [ {
+        "resultName" : "DeclareInputParameters",
+        "resultLabel" : "DeclareInputParameters",
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "Quantity",
+        "resultLabel" : "Quantity",
+        "result" : 10,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "SalesDiscountPct",
+        "resultLabel" : "Sales Discount %",
+        "result" : 0.0,
+        "excludeFromExport" : false,
+        "displayOptions" : 2,
+        "formatType" : "PERCENT",
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "ListPrice",
+        "resultLabel" : "ListPrice",
+        "result" : 7.35913,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "SalesDiscountAbs",
+        "resultLabel" : "SalesDiscountAbs",
+        "result" : 0.000000,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "InvoicePrice",
+        "resultLabel" : "InvoicePrice",
+        "result" : 7.359130,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "TotalInvoicePrice",
+        "resultLabel" : "TotalInvoicePrice",
+        "result" : 73.591300,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "Cost",
+        "resultLabel" : "Cost",
+        "result" : 5.25,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "PocketMarginAbs",
+        "resultLabel" : "PocketMarginAbs",
+        "result" : 2.109130,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "PocketMarginPct",
+        "resultLabel" : "PocketMarginPct",
+        "result" : 0.2866004541,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      } ],
+      "dirty" : false,
+      "lineId" : "N9Md5ocHiVU2C9o",
+      "calculationStatus" : 0,
+      "editabilityStatus" : 0,
+      "label" : "Meatball BS",
+      "sku" : "MB-0003",
+      "folder" : false,
+      "treeLabel" : "Meatball BS",
+      "createDate" : "2021-12-15T09:38:48",
+      "createdBy" : 4243,
+      "lastUpdateDate" : "2021-12-15T09:38:48",
+      "lastUpdateBy" : 4243
+    }, {
+      "version" : 1,
+      "typedId" : "47085.QLI",
+      "clicId" : 6847,
+      "inputs" : [ {
+        "name" : "Quantity",
+        "label" : "Required Quantity",
+        "type" : "INTEGERUSERENTRY",
+        "value" : 19,
+        "required" : true,
+        "parameterConfig" : {
+          "dataType" : "integer",
+          "inputType" : "range",
+          "from" : 1
+        },
+        "formattingOptions" : { }
+      }, {
+        "name" : "SalesDiscountPct",
+        "label" : "Sales Discount (%)",
+        "type" : "USERENTRY",
+        "value" : 0,
+        "required" : false,
+        "parameterConfig" : {
+          "dataType" : "float",
+          "from" : 0,
+          "format type" : "PERCENT",
+          "to" : 1,
+          "formatType" : "range"
+        },
+        "formattingOptions" : { }
+      } ],
+      "outputs" : [ {
+        "resultName" : "DeclareInputParameters",
+        "resultLabel" : "DeclareInputParameters",
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "Quantity",
+        "resultLabel" : "Quantity",
+        "result" : 19,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "SalesDiscountPct",
+        "resultLabel" : "Sales Discount %",
+        "result" : 0.0,
+        "excludeFromExport" : false,
+        "displayOptions" : 2,
+        "formatType" : "PERCENT",
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "ListPrice",
+        "resultLabel" : "ListPrice",
+        "result" : 7.40741,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "SalesDiscountAbs",
+        "resultLabel" : "SalesDiscountAbs",
+        "result" : 0.000000,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "InvoicePrice",
+        "resultLabel" : "InvoicePrice",
+        "result" : 7.407410,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "TotalInvoicePrice",
+        "resultLabel" : "TotalInvoicePrice",
+        "result" : 140.740790,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "Cost",
+        "resultLabel" : "Cost",
+        "result" : 5.8,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "PocketMarginAbs",
+        "resultLabel" : "PocketMarginAbs",
+        "result" : 1.607410,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "PocketMarginPct",
+        "resultLabel" : "PocketMarginPct",
+        "result" : 0.2170002740,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      } ],
+      "dirty" : false,
+      "lineId" : "CKQv6OrN2OtmeQh",
+      "calculationStatus" : 0,
+      "editabilityStatus" : 0,
+      "label" : "Meatball PS",
+      "sku" : "MB-0004",
+      "folder" : false,
+      "treeLabel" : "Meatball PS",
+      "createDate" : "2021-12-15T09:38:48",
+      "createdBy" : 4243,
+      "lastUpdateDate" : "2021-12-15T09:38:48",
+      "lastUpdateBy" : 4243
+    }, {
+      "version" : 1,
+      "typedId" : "47086.QLI",
+      "clicId" : 6847,
+      "inputs" : [ {
+        "name" : "Quantity",
+        "label" : "Required Quantity",
+        "type" : "INTEGERUSERENTRY",
+        "value" : 199,
+        "required" : true,
+        "parameterConfig" : {
+          "dataType" : "integer",
+          "inputType" : "range",
+          "from" : 1
+        },
+        "formattingOptions" : { }
+      }, {
+        "name" : "SalesDiscountPct",
+        "label" : "Sales Discount (%)",
+        "type" : "USERENTRY",
+        "value" : 0,
+        "required" : false,
+        "parameterConfig" : {
+          "dataType" : "float",
+          "from" : 0,
+          "format type" : "PERCENT",
+          "to" : 1,
+          "formatType" : "range"
+        },
+        "formattingOptions" : { }
+      } ],
+      "outputs" : [ {
+        "resultName" : "DeclareInputParameters",
+        "resultLabel" : "DeclareInputParameters",
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "Quantity",
+        "resultLabel" : "Quantity",
+        "result" : 199,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "SalesDiscountPct",
+        "resultLabel" : "Sales Discount %",
+        "result" : 0.0,
+        "excludeFromExport" : false,
+        "displayOptions" : 2,
+        "formatType" : "PERCENT",
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "ListPrice",
+        "resultLabel" : "ListPrice",
+        "result" : 6.99872,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "SalesDiscountAbs",
+        "resultLabel" : "SalesDiscountAbs",
+        "result" : 0.000000,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "InvoicePrice",
+        "resultLabel" : "InvoicePrice",
+        "result" : 6.998720,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "TotalInvoicePrice",
+        "resultLabel" : "TotalInvoicePrice",
+        "result" : 1392.745280,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "Cost",
+        "resultLabel" : "Cost",
+        "result" : 5.48,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "PocketMarginAbs",
+        "resultLabel" : "PocketMarginAbs",
+        "result" : 1.518720,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "PocketMarginPct",
+        "resultLabel" : "PocketMarginPct",
+        "result" : 0.2169996799,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      } ],
+      "dirty" : false,
+      "lineId" : "w3VSs2XlgdGg2b8",
+      "calculationStatus" : 0,
+      "editabilityStatus" : 0,
+      "label" : "Meatball PM",
+      "sku" : "MB-0005",
+      "folder" : false,
+      "treeLabel" : "Meatball PM",
+      "createDate" : "2021-12-15T09:38:48",
+      "createdBy" : 4243,
+      "lastUpdateDate" : "2021-12-15T09:38:48",
+      "lastUpdateBy" : 4243
+    }, {
+      "version" : 1,
+      "typedId" : "47087.QLI",
+      "clicId" : 6847,
+      "inputs" : [ {
+        "name" : "Quantity",
+        "label" : "Required Quantity",
+        "type" : "INTEGERUSERENTRY",
+        "value" : 120,
+        "required" : true,
+        "parameterConfig" : {
+          "dataType" : "integer",
+          "inputType" : "range",
+          "from" : 1
+        },
+        "formattingOptions" : { }
+      }, {
+        "name" : "SalesDiscountPct",
+        "label" : "Sales Discount (%)",
+        "type" : "USERENTRY",
+        "value" : 0,
+        "required" : false,
+        "parameterConfig" : {
+          "dataType" : "float",
+          "from" : 0,
+          "format type" : "PERCENT",
+          "to" : 1,
+          "formatType" : "range"
+        },
+        "formattingOptions" : { }
+      } ],
+      "outputs" : [ {
+        "resultName" : "DeclareInputParameters",
+        "resultLabel" : "DeclareInputParameters",
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "Quantity",
+        "resultLabel" : "Quantity",
+        "result" : 120,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "SalesDiscountPct",
+        "resultLabel" : "Sales Discount %",
+        "result" : 0.0,
+        "excludeFromExport" : false,
+        "displayOptions" : 2,
+        "formatType" : "PERCENT",
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "ListPrice",
+        "resultLabel" : "ListPrice",
+        "result" : 9.25556,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "SalesDiscountAbs",
+        "resultLabel" : "SalesDiscountAbs",
+        "result" : 0.000000,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "InvoicePrice",
+        "resultLabel" : "InvoicePrice",
+        "result" : 9.255560,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "TotalInvoicePrice",
+        "resultLabel" : "TotalInvoicePrice",
+        "result" : 1110.667200,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "Cost",
+        "resultLabel" : "Cost",
+        "result" : 8.33,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "PocketMarginAbs",
+        "resultLabel" : "PocketMarginAbs",
+        "result" : 0.925560,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "PocketMarginPct",
+        "resultLabel" : "PocketMarginPct",
+        "result" : 0.1000004322,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      } ],
+      "dirty" : false,
+      "lineId" : "EYqVYpPW4rRil6U",
+      "calculationStatus" : 0,
+      "editabilityStatus" : 0,
+      "label" : "Meatball Pl",
+      "sku" : "MB-0006",
+      "folder" : false,
+      "treeLabel" : "Meatball Pl",
+      "createDate" : "2021-12-15T09:38:48",
+      "createdBy" : 4243,
+      "lastUpdateDate" : "2021-12-15T09:38:48",
+      "lastUpdateBy" : 4243
+    }, {
+      "version" : 1,
+      "typedId" : "47088.QLI",
+      "clicId" : 6847,
+      "inputs" : [ {
+        "name" : "Quantity",
+        "label" : "Required Quantity",
+        "type" : "INTEGERUSERENTRY",
+        "value" : 12,
+        "required" : true,
+        "parameterConfig" : {
+          "dataType" : "integer",
+          "inputType" : "range",
+          "from" : 1
+        },
+        "formattingOptions" : { }
+      }, {
+        "name" : "SalesDiscountPct",
+        "label" : "Sales Discount (%)",
+        "type" : "USERENTRY",
+        "value" : 0,
+        "required" : false,
+        "parameterConfig" : {
+          "dataType" : "float",
+          "from" : 0,
+          "format type" : "PERCENT",
+          "to" : 1,
+          "formatType" : "range"
+        },
+        "formattingOptions" : { }
+      } ],
+      "outputs" : [ {
+        "resultName" : "DeclareInputParameters",
+        "resultLabel" : "DeclareInputParameters",
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "Quantity",
+        "resultLabel" : "Quantity",
+        "result" : 12,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "SalesDiscountPct",
+        "resultLabel" : "Sales Discount %",
+        "result" : 0.0,
+        "excludeFromExport" : false,
+        "displayOptions" : 2,
+        "formatType" : "PERCENT",
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "ListPrice",
+        "resultLabel" : "ListPrice",
+        "result" : 10.86301,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "SalesDiscountAbs",
+        "resultLabel" : "SalesDiscountAbs",
+        "result" : 0.000000,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "InvoicePrice",
+        "resultLabel" : "InvoicePrice",
+        "result" : 10.863010,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "TotalInvoicePrice",
+        "resultLabel" : "TotalInvoicePrice",
+        "result" : 130.356120,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "Cost",
+        "resultLabel" : "Cost",
+        "result" : 7.93,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "PocketMarginAbs",
+        "resultLabel" : "PocketMarginAbs",
+        "result" : 2.933010,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "PocketMarginPct",
+        "resultLabel" : "PocketMarginPct",
+        "result" : 0.2699997515,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      } ],
+      "dirty" : false,
+      "lineId" : "O5sIKyMTu2DXpPZ",
+      "calculationStatus" : 0,
+      "editabilityStatus" : 0,
+      "label" : "Meatball LS",
+      "sku" : "MB-0007",
+      "folder" : false,
+      "treeLabel" : "Meatball LS",
+      "createDate" : "2021-12-15T09:38:48",
+      "createdBy" : 4243,
+      "lastUpdateDate" : "2021-12-15T09:38:48",
+      "lastUpdateBy" : 4243
+    }, {
+      "version" : 1,
+      "typedId" : "47089.QLI",
+      "clicId" : 6847,
+      "inputs" : [ {
+        "name" : "Quantity",
+        "label" : "Required Quantity",
+        "type" : "INTEGERUSERENTRY",
+        "value" : 100,
+        "required" : true,
+        "parameterConfig" : {
+          "dataType" : "integer",
+          "inputType" : "range",
+          "from" : 1
+        },
+        "formattingOptions" : { }
+      }, {
+        "name" : "SalesDiscountPct",
+        "label" : "Sales Discount (%)",
+        "type" : "USERENTRY",
+        "value" : 0,
+        "required" : false,
+        "parameterConfig" : {
+          "dataType" : "float",
+          "from" : 0,
+          "format type" : "PERCENT",
+          "to" : 1,
+          "formatType" : "range"
+        },
+        "formattingOptions" : { }
+      } ],
+      "outputs" : [ {
+        "resultName" : "DeclareInputParameters",
+        "resultLabel" : "DeclareInputParameters",
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "Quantity",
+        "resultLabel" : "Quantity",
+        "result" : 100,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "SalesDiscountPct",
+        "resultLabel" : "Sales Discount %",
+        "result" : 0.0,
+        "excludeFromExport" : false,
+        "displayOptions" : 2,
+        "formatType" : "PERCENT",
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "ListPrice",
+        "resultLabel" : "ListPrice",
+        "result" : 8.35616,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "SalesDiscountAbs",
+        "resultLabel" : "SalesDiscountAbs",
+        "result" : 0.000000,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "InvoicePrice",
+        "resultLabel" : "InvoicePrice",
+        "result" : 8.356160,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "TotalInvoicePrice",
+        "resultLabel" : "TotalInvoicePrice",
+        "result" : 835.616000,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "Cost",
+        "resultLabel" : "Cost",
+        "result" : 6.1,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "PocketMarginAbs",
+        "resultLabel" : "PocketMarginAbs",
+        "result" : 2.256160,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "PocketMarginPct",
+        "resultLabel" : "PocketMarginPct",
+        "result" : 0.2699996170,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      } ],
+      "dirty" : false,
+      "lineId" : "KR1JqtLzc8yBxuS",
+      "calculationStatus" : 0,
+      "editabilityStatus" : 0,
+      "label" : "Meatball LM",
+      "sku" : "MB-0008",
+      "folder" : false,
+      "treeLabel" : "Meatball LM",
+      "createDate" : "2021-12-15T09:38:48",
+      "createdBy" : 4243,
+      "lastUpdateDate" : "2021-12-15T09:38:48",
+      "lastUpdateBy" : 4243
+    }, {
+      "version" : 1,
+      "typedId" : "47090.QLI",
+      "clicId" : 6847,
+      "inputs" : [ {
+        "name" : "Quantity",
+        "label" : "Required Quantity",
+        "type" : "INTEGERUSERENTRY",
+        "value" : 19,
+        "required" : true,
+        "parameterConfig" : {
+          "dataType" : "integer",
+          "inputType" : "range",
+          "from" : 1
+        },
+        "formattingOptions" : { }
+      }, {
+        "name" : "SalesDiscountPct",
+        "label" : "Sales Discount (%)",
+        "type" : "USERENTRY",
+        "value" : 0,
+        "required" : false,
+        "parameterConfig" : {
+          "dataType" : "float",
+          "from" : 0,
+          "format type" : "PERCENT",
+          "to" : 1,
+          "formatType" : "range"
+        },
+        "formattingOptions" : { }
+      } ],
+      "outputs" : [ {
+        "resultName" : "DeclareInputParameters",
+        "resultLabel" : "DeclareInputParameters",
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "Quantity",
+        "resultLabel" : "Quantity",
+        "result" : 19,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "SalesDiscountPct",
+        "resultLabel" : "Sales Discount %",
+        "result" : 0.0,
+        "excludeFromExport" : false,
+        "displayOptions" : 2,
+        "formatType" : "PERCENT",
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "ListPrice",
+        "resultLabel" : "ListPrice",
+        "result" : 7.05806,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "SalesDiscountAbs",
+        "resultLabel" : "SalesDiscountAbs",
+        "result" : 0.000000,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "InvoicePrice",
+        "resultLabel" : "InvoicePrice",
+        "result" : 7.058060,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "TotalInvoicePrice",
+        "resultLabel" : "TotalInvoicePrice",
+        "result" : 134.103140,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "Cost",
+        "resultLabel" : "Cost",
+        "result" : 5.41,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "PocketMarginAbs",
+        "resultLabel" : "PocketMarginAbs",
+        "result" : 1.648060,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      }, {
+        "resultName" : "PocketMarginPct",
+        "resultLabel" : "PocketMarginPct",
+        "result" : 0.2335004236,
+        "excludeFromExport" : false,
+        "displayOptions" : 16,
+        "resultType" : "SIMPLE",
+        "overrideAllowEmpty" : true,
+        "overridable" : false,
+        "overridden" : false
+      } ],
+      "dirty" : false,
+      "lineId" : "CI3p2jDfloETyq7",
+      "calculationStatus" : 0,
+      "editabilityStatus" : 0,
+      "label" : "Meatball Ll",
+      "sku" : "MB-0009",
+      "folder" : false,
+      "treeLabel" : "Meatball Ll",
+      "createDate" : "2021-12-15T09:38:48",
+      "createdBy" : 4243,
+      "lastUpdateDate" : "2021-12-15T09:38:48",
+      "lastUpdateBy" : 4243
+    } ],
+    "expiryDate" : "2021-12-15",
+    "customerId" : "CD-00004",
+    "customerName" : "Price f(x) AG",
+    "quoteStatus" : "DRAFT",
+    "serverMessagesExtended" : [ {
+      "key" : "QUOTE_CALCULATED",
+      "message" : "Quote calculated successfully"
+    } ],
+    "hasWorkflowHistory" : false,
+    "createDate" : "2021-12-15T09:38:48",
+    "createdBy" : 4243,
+    "lastUpdateDate" : "2021-12-15T09:38:48",
+    "lastUpdateBy" : 4243,
+    "rootUniqueName" : "P-6847",
+    "status" : "DRAFT"
+  },
+  "resultType" : "QUOTE"
+}

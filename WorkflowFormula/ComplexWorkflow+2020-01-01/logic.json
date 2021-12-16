@@ -1,0 +1,22 @@
+{
+  "elements" : [ {
+    "combinationType" : "FUNCTION",
+    "elementName" : "AbortonSynxtaxCheck",
+    "elementTimeout" : 0,
+    "hideWarnings" : false,
+    "protectedExpression" : false
+  }, {
+    "combinationType" : "FUNCTION",
+    "elementLabel" : "Build Step",
+    "elementName" : "BuildStep",
+    "elementTimeout" : 0,
+    "hideWarnings" : false,
+    "protectedExpression" : false
+  } ],
+  "inputDescriptors" : [ ],
+  "label" : "Complex Workflow",
+  "status" : "ACTIVE",
+  "uniqueName" : "ComplexWorkflow",
+  "validAfter" : "2020-01-01",
+  "workflowType" : "quote"
+}
