@@ -1,0 +1,1 @@
+if(api.isSyntaxCheck()) return
