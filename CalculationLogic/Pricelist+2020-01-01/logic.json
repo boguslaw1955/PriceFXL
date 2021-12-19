@@ -2,7 +2,7 @@
   "elements" : [ {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
-    "displayOptions" : 4,
+    "displayOptions" : 1,
     "elementGroups" : [ ],
     "elementLabel" : "Price List Lib",
     "elementName" : "PriceListLib",
@@ -14,7 +14,7 @@
   }, {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
-    "displayOptions" : 5,
+    "displayOptions" : 1,
     "elementGroups" : [ ],
     "elementLabel" : "Base Price",
     "elementName" : "BasePrice",
