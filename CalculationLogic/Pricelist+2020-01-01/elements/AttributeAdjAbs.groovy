@@ -3,6 +3,7 @@ if(out.BasePrice == null || out.MarginAdjAbs == null || out.AttributeAdjPct == n
     return null
 }
 
+
 if(out.AttributeAdjPct == 1) {
     api.addWarning("Attribute Adjustment cannot be 100% -> division by 0")
     return null
