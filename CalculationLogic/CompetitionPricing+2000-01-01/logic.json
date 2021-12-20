@@ -2,7 +2,7 @@
   "elements" : [ {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
-    "displayOptions" : 4,
+    "displayOptions" : 0,
     "elementGroups" : [ ],
     "elementName" : "AbortOnSyntaxCheck",
     "elementTimeout" : 0,
