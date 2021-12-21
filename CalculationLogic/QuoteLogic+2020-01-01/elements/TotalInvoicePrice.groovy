@@ -1,4 +1,4 @@
-if( out.InvoicePrice == null
+,if( out.InvoicePrice == null
     || out.Quantity == null)
 {
     api.addWarning("Total Invoice Price cannot be calculated: missing parameter(s)")
